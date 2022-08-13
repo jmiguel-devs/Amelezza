@@ -1,0 +1,25 @@
+.checkout-input{
+    min-width: 50%!important;
+    width: 100%!important;
+    margin-bottom: 1em!important;
+    border-color: black!important;
+}
+
+.checkout-button{
+    background-color: black!important;
+    color: white!important;
+    padding: 12px!important;
+    font-family: 'Work Sans'!important;
+}
+
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked{
+    color: black!important
+}
+
+.radio-group{
+    margin-left: 15px!important;
+}
+
+.radio-group .css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label{
+    font-family: 'Work Sans'!important;
+}

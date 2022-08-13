@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ECE9E3
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'mademirage';
+  src: url('./resources/fonts/6938MADEMirage.woff2') format('woff2'),
+    url('./resources/fonts/6938MADEMirage.woff') format('woff');
+  font-display: auto;
+}
+
+.mademirage{font-family: 'mademirage' !important;}
+
+
+@font-face {
+  font-family: 'mademiragethin';
+  src: url('./resources/fonts/MADEMirage-Thin.woff') format('woff');
+  font-display: auto;
+}
+
+.mademiragethin{font-family: 'mademiragethin' !important;}
+
+h1, h2, h3{
+  font-family: 'mademiragethin';
+  color: #000
+}
+
+p{
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  color: #404040;
+  letter-spacing: -1px;
+}

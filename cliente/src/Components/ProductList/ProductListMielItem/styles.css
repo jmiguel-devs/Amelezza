@@ -1,0 +1,185 @@
+.product-block-tr{
+  padding: 30px
+}
+
+.product-hr{
+  height: 2px;
+  background-color: #000;
+  border: none;
+  width: 100%
+}
+
+.product-image{
+  width: 100%;
+}
+
+.product-heading{
+  font-family: 'mademirage';
+  line-height: 0;
+  margin: 0;
+  font-size: 2em;
+  font-weight: 800!important;
+  
+}
+
+.product-desc{
+  font-size: 14px;
+  margin: 0;
+  margin-top: 13px;
+}
+
+.product-buy-container{
+  margin-top: auto;
+  background-color: #000;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  cursor: pointer
+    
+}
+
+.product-comprar{
+  margin: 0;
+  color: #fff;
+  font-family: "mademirage";
+  font-weight: 400;
+  font-size: 1.75em;
+}
+
+/*owl-carousel*/
+
+.carousel-container{
+  background-color: #000;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px
+}
+
+.carousel-container h3{
+  color: #fff;
+  font-family: 'mademirage';
+  line-height: 0;
+  margin: 0;
+  font-size: 1.9em;
+  font-weight: 400
+}
+
+.carousel-container select{
+  background-color: transparent;
+  border: 0px;
+  border-radius: 0px;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  margin: 0 10px 0 auto;
+  width: 100%;
+  max-width: 175px;
+  font-size: 1.2em;
+  font-family: "mademirage";
+  padding: 3px 0px 3px 10px;
+}
+
+.carousel-container select:focus {
+  outline: none !important;
+}
+
+.carousel-container option {
+  color: #000;
+}
+
+.carousel-container input {
+  margin: 0 10px 0 auto;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-family: "MADE Mirage";
+  width: 100%;
+  max-width: 175px;
+  font-size: 1.2em;
+  padding: 3px 0px 3px 10px;
+  position: relative;
+}
+
+.carousel-container input:focus {
+  outline: none !important;
+}
+
+.carousel-container div.svg-container, .carousel-container button.svg-container{
+  background-color: #fff;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  border-bottom: none;
+  width: 37px;
+  outline:none!important;
+}
+
+form.cart{
+  margin-top: auto;
+}
+
+.product-buy-title{
+    color: white
+}
+
+@media screen and (max-width: 992px){
+  .resp-table-column-banner{
+    display: none;
+  }
+  
+  .resp-table-column {
+    width: calc(100%/2);
+  }
+}
+
+@media screen and (max-width: 768px){
+  
+  .resp-table-column {
+    width: 100%;
+    margin-bottom: 50px
+  }
+}
+
+@media screen and (max-width: 480px){
+  
+  .product-heading{
+    font-size: 1.7em;
+  }
+  
+  .product-block-tr p{
+    font-size: 14px
+  }
+  
+  .product-hr{
+    margin: 0
+  }
+  
+  .carousel-container{
+    padding-left: 25px;
+  }
+  
+  .carousel-container h3{
+    font-size: 1.5em
+  }
+  
+  .carousel-container select, .carousel-container input{
+    max-width: 125px;
+    font-size: 1em;
+  }
+  
+  .carousel-container div.svg-container, .carousel-container button.svg-container{
+    width: 35px;
+  }
+  
+  .product-block-tr {
+    padding: 30px 25px;
+  }
+  
+  
+}
+

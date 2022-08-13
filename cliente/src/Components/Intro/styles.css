@@ -1,0 +1,125 @@
+.intro-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center
+}
+
+.intro-title{
+  font-size: 6em;
+  font-weight: 100;
+  height: 65vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-image{
+  width: 100%;
+}
+
+
+.since-1964{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 7em
+}
+
+.desde-1964{
+  font-size: 24px;
+  margin-bottom:0
+}
+
+.vertical-hr{
+    width: 200px;
+    border: 1px solid #ece9e3;
+    transform: rotate(90deg) translateX(-84px);
+    mix-blend-mode: exclusion;
+}
+
+.vertical-hr.inner-element{
+    transform: rotate(90deg) translateX(84px);
+}
+
+.horizontal-hr{
+    width: 350px;
+    border: 1px solid #000;
+
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 1px solid red; */
+  width: 400px;
+  height: 300px;
+}
+
+.block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.b-1 {
+  background: url("../../resources/images/dehesa-amelezza.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.b-2 {
+  background: url("../../resources/images/dehesa-amelezza.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.b-3 {
+  background: url("../../resources/images/dehesa-amelezza.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.b-4 {
+  background: url("../../resources/images/dehesa-amelezza.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.b-5 {
+  background: url("../../resources/images/dehesa-amelezza.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.b-6 {
+  background: url("../../resources/images/dehesa-amelezza.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.b-7 {
+  background: url("../../resources/images/dehesa-amelezza.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  bottom: -10rem;
+  background: #e3dcc7;
+}
+
+.title {
+  margin-top: 20rem;
+  text-align: center;
+  font-family: "Canopee";
+  font-size: 6em;
+  color: #393833;
+  overflow: hidden;
+}
+
+.title .letter {
+  display: inline-block;
+  line-height: 1em;
+}
